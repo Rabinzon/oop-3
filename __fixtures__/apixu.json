@@ -1,0 +1,16 @@
+{
+  "location": {
+    "name": "London",
+    "region": "United Kingdom",
+    "lat": 51.52,
+    "lon": -0.11
+  },
+  "current": {
+    "temp_c": 12,
+    "temp_f": 53.6,
+    "wind_mph": 9.4,
+    "condition" : {
+      "text": "Overcast clouds"
+    }
+  }
+}

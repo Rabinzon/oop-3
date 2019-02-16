@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "wind_cdir": "E",
+      "rh": 74,
+      "pod": "d",
+      "lon": -93.25296,
+      "pres": 1000.7,
+      "timezone": "America/Chicago",
+      "ob_time": "2019-02-16 14:12",
+      "country_code": "US",
+      "clouds": 100,
+      "vis": 10,
+      "solar_rad": 31.6,
+      "state_code": "AR",
+      "wind_spd": 9.4,
+      "lat": 35.32897,
+      "wind_cdir_full": "east",
+      "slp": 1015.2,
+      "datetime": "2019-02-16:14",
+      "ts": 1550326320,
+      "station": "C4407",
+      "h_angle": -60,
+      "dewpt": -3,
+      "uv": 0.799224,
+      "dni": 496.526,
+      "wind_dir": 88,
+      "elev_angle": 11.094,
+      "ghi": 158.081,
+      "dhi": 61.8566,
+      "precip": null,
+      "city_name": "London",
+      "weather": {
+        "icon": "c04d",
+        "code": "804",
+        "description": "Overcast clouds"
+      },
+      "sunset": "23:57",
+      "temp": 12,
+      "sunrise": "12:58",
+      "app_temp": -0.3
+    }
+  ],
+  "count": 1
+}
