@@ -1,7 +1,7 @@
 import url from 'url';
 
 export default class {
-  constructor(fetch, key) {
+  constructor(key, fetch) {
     this.fetch = fetch;
     this.apiUrlString = `https://api.weatherbit.io/v2.0/current?key=${key}`
   }

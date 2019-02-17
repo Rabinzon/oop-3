@@ -1,6 +1,6 @@
 export default class {
-  constructor(WeatherService, fetch, key) {
-    this.provider = new WeatherService(fetch, key);
+  constructor(WeatherService) {
+    this.provider = WeatherService;
   }
 
   async getByCityName(cityName) {

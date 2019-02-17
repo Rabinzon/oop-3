@@ -1,6 +1,6 @@
 ## weather
 
-[![Build Status](https://travis-ci.org/Rabinzon/hexlet-oop.svg?branch=master)](https://travis-ci.org/Rabinzon/hexlet-oop)
+[![Build Status](https://travis-ci.org/Rabinzon/oop-3.svg?branch=master)](https://travis-ci.org/Rabinzon/oop-3)
 
 ## CL usage
 ```sh
@@ -26,7 +26,16 @@ const weather = new Weather('apixu');
 await weather.getByCityName('London');
 ```
 
+
 ## Setup
+
+### `keys.json` should include api keys
+```json
+{
+  "apixu": "key",
+  "weatherbit": "key"
+}
+```
 
 ```sh
 $ make install

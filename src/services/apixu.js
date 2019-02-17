@@ -1,7 +1,7 @@
 import url from 'url';
 
 export default class {
-  constructor(fetch, key) {
+  constructor(key, fetch) {
     this.fetch = fetch;
     this.apiUrlString = `https://api.apixu.com/v1/current.json?key=${key}`
   }

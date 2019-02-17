@@ -6,7 +6,7 @@ import apiKeys from '../keys';
 
 export default class {
   constructor(serviceName, fetch = axios) {
-    this.weather = new Weather(services[serviceName], fetch, apiKeys[serviceName]);
+    this.weather = new Weather(new services[serviceName](apiKeys[serviceName], fetch));
   }
 
   async getByCityName(cityName) {
